@@ -6,27 +6,27 @@ public class Loops {
 
         //Write a program that prints the numbers 1-10
 
-        System.out.print("\nNumbers 1-10: ");
+        System.out.print("\nNumbers 1-10: \n");
         for (int x = 1; x <= 10; x++) {
-            System.out.print(x);
+            System.out.println(x);
         }
 
         //Write a program that prints the numbers 1-10 backwards
 
-        System.out.print("\nNumbers 1-10 backwards: ");
+        System.out.print("\nNumbers 1-10 backwards: \n");
         for (int x = 10; x >= 1; x--) {
-            System.out.print(x);
+            System.out.println(x);
         }
         //Write a program that prints all the odd numbers from 1-20
 
-        System.out.print("\nOdd Numbers: ");
+        System.out.print("\nOdd Numbers: \n");
         for (int x = 1; x <= 20; x = x + 2) {
-            System.out.print(x);
+            System.out.println(x);
         }
         //Write a program that prints all the even numbers from 1-20
-        System.out.print("\nEven Numbers: ");
+        System.out.print("\nEven Numbers: \n");
         for (int x = 2; x <= 20; x = x + 2) {
-            System.out.print(x);
+            System.out.println(x);
 
         }
         //Have the user input a number and print all numbers from that input value to 1
@@ -34,29 +34,30 @@ public class Loops {
         int x = input.nextInt();
         System.out.print("\nValue : ");
         for (; x >= 1; x--) {
-            System.out.print(x);
+            System.out.println(x);
         }
 
         //Sum all values from 1-10.
-        int count = 0;
+        int count = 1;
         int sum;
-        for (sum = 0; count >= 10; count++) {
+        for (sum = 1; count <= 10; count++) {
             sum = sum + count;
 
         }
-        //Have the user enter a number and print the sum of all numbers from that inputted value to 1
-
         System.out.println("\nSum of all values from 1-10 is : " + sum);
+
+        //Have the user enter a number and print the sum of all numbers from that inputted value to 1
         int userSum;
         System.out.println("Please input a number: ");
         int userValue = input.nextInt();
 
         for (userSum = 0; userValue >= 1; userValue--) {
             userSum = userValue + userSum;
+            System.out.println(userSum);
 
 
         }
-        System.out.println("\nSum of all value is : " + userSum);
+
 
         //Write loops to print the following:
 
